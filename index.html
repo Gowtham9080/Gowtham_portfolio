@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gowtham Rajendran | Java Developer Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <title>Gowtham Rajendran | Enterprise Java Developer</title>
+    <!-- Modern Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Header / Nav -->
+    <!-- Sticky Navigation -->
     <nav class="navbar">
-        <div class="container">
-            <a href="#" class="logo">G.RAJENDRAN</a>
+        <div class="container nav-container">
+            <a href="#" class="logo">Gowtham<span>R</span></a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact" class="nav-btn">Contact Me</a></li>
+                <li><a href="#projects">Work</a></li>
+                <!-- VIEW RESUME LINK -->
+                <li><a href="Gowtham_Rajendran_Resume.pdf" target="_blank" class="nav-resume-link">View Resume</a></li>
             </ul>
+            <a href="mailto:r2000gowtham@gmail.com" class="btn-hire">Hire Me</a>
         </div>
     </nav>
 
@@ -28,151 +30,101 @@
     <header class="hero">
         <div class="container hero-grid">
             <div class="hero-text">
-                <div class="badge">Enterprise Java Developer</div>
-                <h1>Results-driven <span class="highlight">Java Developer</span> for Banking Systems.</h1>
-                <p>2+ years of experience delivering enterprise-grade Banking Audit, KYC, and Reconciliation systems. Expert in Java, Spring Boot, and SQL optimization.</p>
-                <div class="contact-strip">
-                    <span><i class="fas fa-map-marker-alt"></i> Dharmapuri, TN</span>
-                    <span><i class="fas fa-phone"></i> +91 6383450564</span>
-                    <span><i class="fas fa-envelope"></i> r2000gowtham@gmail.com</span>
+                <div class="status-badge"><span class="dot"></span> Open to New Opportunities</div>
+                <h1>Building High-Performance <span class="gradient-text">Banking Audit</span> Systems.</h1>
+                <p>Java Developer with 2+ years of expertise in SNAP Audit modules, BRF Reporting, and KYC compliance. Specialized in Spring Boot, iBATIS, and SQL Optimization.</p>
+                
+                <div class="hero-actions">
+                    <!-- DOWNLOAD RESUME BUTTON -->
+                    <a href="Gowtham_Rajendran_Resume.pdf" download class="btn-primary">
+                        <i class="fas fa-file-download"></i> Download CV
+                    </a>
+                    <!-- LINKEDIN LINK -->
+                    <a href="https://linkedin.com/in/gowthamrajendran3920" target="_blank" class="btn-secondary">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
                 </div>
             </div>
-            <div class="hero-image">
-                <img src="images/Gowtham Rajendran.jpeg" alt="Gowtham Rajendran">
+            <div class="hero-visual">
+                <div class="img-frame">
+                    <img src="images/Gowtham Rajendran.jpeg" alt="Gowtham Rajendran">
+                    <div class="exp-badge"><b>2+</b> Years<br>Experience</div>
+                </div>
             </div>
         </div>
     </header>
 
-    <!-- Professional Summary -->
-    <section id="about" class="section bg-alt">
-        <div class="container">
-            <h2 class="label">Professional Summary</h2>
-            <div class="summary-box">
-                <p>Proficient in Java, JSP, Servlets, JDBC, Spring Boot, Oracle, and iBATIS. Proven ability to optimize SQL performance, implement audit workflows, automate financial reporting with Jasper Reports, and resolve production issues — reducing manual effort, improving data accuracy, and delivering scalable solutions for high-compliance banking environments.</p>
-            </div>
+    <!-- Skills Bar -->
+    <div class="skills-ticker">
+        <div class="ticker-content">
+            <span>JAVA</span><span>SPRING BOOT</span><span>ORACLE PL/SQL</span><span>iBATIS</span><span>JASPER REPORTS</span><span>REST APIs</span><span>MS SQL SERVER</span>
         </div>
-    </section>
+    </div>
 
-    <!-- Technical Skills -->
-    <section id="skills" class="section">
+    <!-- Experience Section -->
+    <section id="experience" class="section">
         <div class="container">
-            <h2 class="label">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <i class="fas fa-code"></i>
-                    <h3>Languages & Frameworks</h3>
-                    <p>Java, JSP, Servlets, JDBC, Spring Boot, iBATIS</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-database"></i>
-                    <h3>Databases</h3>
-                    <p>Oracle, PL/SQL, Microsoft SQL Server</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-tools"></i>
-                    <h3>Tools & Technologies</h3>
-                    <p>Apache Tomcat, Maven, Git, Eclipse, Jasper Reports</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-globe"></i>
-                    <h3>Web Technologies</h3>
-                    <p>HTML, CSS, JavaScript</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience -->
-    <section id="experience" class="section bg-alt">
-        <div class="container">
-            <h2 class="label">Professional Experience</h2>
-            
-            <div class="timeline">
-                <!-- Role 1 -->
-                <div class="timeline-item">
-                    <div class="timeline-header">
-                        <div class="title-grp">
-                            <h3>Software Engineer</h3>
-                            <span class="company">NCS SoftSolutions, Dharmapuri, India</span>
-                        </div>
-                        <span class="date">March 2026 – Present</span>
+            <h2 class="section-title">Career Path</h2>
+            <div class="modern-timeline">
+                <div class="timeline-box">
+                    <div class="timeline-info">
+                        <h3>Software Engineer</h3>
+                        <p class="company">NCS SoftSolutions, Dharmapuri</p>
+                        <span class="period">Mar 2026 — Present</span>
                     </div>
-                    <ul class="exp-list">
-                        <li>Develop and maintain Java enterprise applications using JSP, Servlets, JDBC, Oracle, and iBATIS for banking audit modules.</li>
-                        <li>Analyze business requirements and implement application enhancements, reducing delivery cycle time.</li>
-                        <li>Write and optimize SQL queries, stored procedures, triggers, and database objects to improve query performance.</li>
-                        <li>Support banking audit modules including compliance validations and SLA-compliant issue resolution.</li>
-                    </ul>
+                    <div class="timeline-desc">
+                        <p>Leading the development of banking audit modules. Key focus on SQL performance tuning and regulatory compliance for enterprise audit trails.</p>
+                        <div class="tech-pills"><span>JSP</span><span>Servlets</span><span>iBATIS</span><span>JDBC</span></div>
+                    </div>
                 </div>
 
-                <!-- Role 2 -->
-                <div class="timeline-item">
-                    <div class="timeline-header">
-                        <div class="title-grp">
-                            <h3>Analyst</h3>
-                            <span class="company">Bornfire Innovations Pvt. Ltd., Salem, India</span>
-                        </div>
-                        <span class="date">October 2023 – February 2026</span>
+                <div class="timeline-box">
+                    <div class="timeline-info">
+                        <h3>Analyst</h3>
+                        <p class="company">Bornfire Innovations Pvt. Ltd., Salem</p>
+                        <span class="period">Oct 2023 — Feb 2026</span>
                     </div>
-                    <ul class="exp-list">
-                        <li>Built and maintained banking applications (KYC, Bank Reconciliation, BRF Reporting) using Java, Spring Boot, and Oracle.</li>
-                        <li>Developed RESTful APIs for real-time system integration, enabling seamless data synchronization.</li>
-                        <li>Automated financial report generation using Jasper Reports delivering daily PDF/Excel summaries.</li>
-                        <li>Optimized SQL queries for large-volume datasets, improving throughput and accuracy.</li>
-                    </ul>
+                    <div class="timeline-desc">
+                        <p>Developed core KYC systems and automated financial reporting for international banking clients (UAE/Dubai). Reduced manual effort by 40% using Jasper Reports.</p>
+                        <div class="tech-pills"><span>Spring Boot</span><span>Oracle</span><span>Jasper Reports</span></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Key Projects -->
-    <section id="projects" class="section">
+    <!-- Project Spotlight -->
+    <section id="projects" class="section bg-dark">
         <div class="container">
-            <h2 class="label">Key Projects</h2>
-            <div class="project-list">
-                <!-- Project 1 -->
-                <div class="project-item">
-                    <div class="proj-header">
-                        <h4>SNAP, Revenue Audit & IS Audit</h4>
-                        <span class="proj-tech">Java, JSP, Servlets, JDBC, MS SQL Server, iBATIS</span>
+            <h2 class="section-title text-white">Core Audit & Reporting Work</h2>
+            <div class="project-grid">
+                <!-- SNAP Audit -->
+                <div class="project-card">
+                    <div class="card-icon"><i class="fas fa-shield-halved"></i></div>
+                    <h3>SNAP Audit & IS Audit</h3>
+                    <p>End-to-end audit workflow module with compliance validations and management reporting. Resolved production issues for regulatory adherence.</p>
+                    <div class="card-footer">
+                        <span>MS SQL Server</span><span>iBATIS</span>
                     </div>
-                    <p>Developed audit workflow modules with compliance validations, audit trail management, and management reporting. Resolved production issues end-to-end for regulatory compliance.</p>
                 </div>
-                <!-- Project 2 -->
-                <div class="project-item">
-                    <div class="proj-header">
-                        <h4>KYC System</h4>
-                        <span class="proj-tech">Java, Spring Boot, Oracle, SQL</span>
+                <!-- BRF Reporting -->
+                <div class="project-card highlight-card">
+                    <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>BRF Reporting System</h3>
+                    <p>Automated reconciliation and compliance templates. Integrated business validation logic directly into the automated pipeline.</p>
+                    <div class="card-footer">
+                        <span>Jasper Reports</span><span>Oracle</span>
                     </div>
-                    <p>Built UAE-regulation-compliant KYC platform; automated identity verification, reducing onboarding errors significantly. Engineered customer onboarding workflow integrating with core banking systems.</p>
                 </div>
-                <!-- Project 3 -->
-                <div class="project-item">
-                    <div class="proj-header">
-                        <h4>Bank Reconciliation System — Bank of Baroda, Dubai</h4>
-                        <span class="proj-tech">Java, Spring Boot, Oracle, Jasper Reports, SQL</span>
+                <!-- KYC -->
+                <div class="project-card">
+                    <div class="card-icon"><i class="fas fa-user-check"></i></div>
+                    <h3>KYC Platform</h3>
+                    <p>UAE-regulation compliant onboarding system with automated identity verification for core banking systems.</p>
+                    <div class="card-footer">
+                        <span>REST APIs</span><span>Spring Boot</span>
                     </div>
-                    <p>Designed automated reconciliation engine with REST APIs for real-time sync and dynamic pagination for large datasets. Automated PDF/Excel financial report generation via Jasper Reports.</p>
                 </div>
-                <!-- Project 4 -->
-                <div class="project-item">
-                    <div class="proj-header">
-                        <h4>BRF Reporting System</h4>
-                        <span class="proj-tech">Java, Spring Boot, Oracle, Jasper Reports, SQL</span>
-                    </div>
-                    <p>Led financial reconciliation and compliance reporting; built Jasper templates cutting manual reporting effort significantly. Integrated automated compliance checks into the pipeline.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education -->
-    <section class="section bg-alt">
-        <div class="container">
-            <h2 class="label">Education</h2>
-            <div class="edu-card">
-                <h3>Bachelor of Engineering – Computer Science and Engineering</h3>
-                <p>K.S.R. College of Engineering, Tiruchengode, India | August 2018 – May 2022</p>
             </div>
         </div>
     </section>
@@ -180,18 +132,22 @@
     <!-- Footer / Contact -->
     <footer id="contact" class="footer">
         <div class="container">
-            <h2>Contact Information</h2>
-            <div class="footer-grid">
-                <div class="footer-info">
-                    <p><i class="fas fa-envelope"></i> r2000gowtham@gmail.com</p>
-                    <p><i class="fas fa-phone"></i> +91 6383450564</p>
-                    <p><i class="fab fa-linkedin"></i> linkedin.com/in/gowthamrajendran3920</p>
-                </div>
-                <div class="footer-cta">
-                    <a href="mailto:r2000gowtham@gmail.com" class="btn-main">Hire Me Now</a>
+            <div class="footer-cta">
+                <h2>Ready to scale your banking backend?</h2>
+                <p>Currently accepting new opportunities. Let's discuss your project.</p>
+                <div class="footer-btns">
+                    <a href="mailto:r2000gowtham@gmail.com" class="btn-primary">Email Me</a>
+                    <!-- LINKEDIN HYPERLINK -->
+                    <a href="https://linkedin.com/in/gowthamrajendran3920" target="_blank" class="btn-secondary">View LinkedIn Profile</a>
                 </div>
             </div>
-            <p class="copyright">© <span id="year"></span> Gowtham Rajendran. All details sourced from professional resume.</p>
+            <div class="footer-bottom">
+                <p>© <span id="year"></span> Gowtham Rajendran | Dharmapuri, India</p>
+                <div class="footer-socials">
+                    <a href="https://linkedin.com/in/gowthamrajendran3920" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:r2000gowtham@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
         </div>
     </footer>
 
